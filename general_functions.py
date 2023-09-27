@@ -41,12 +41,20 @@ def get_dict_key_from_val(input_dict, input_val):
 
 
 #------------------------------------------------------------------------------
+# LIST FUNCTIONS
+#------------------------------------------------------------------------------
+
+def get_list_index_from_value(input_list, input_str):
+    return input_list.index(input_str)
+
+
+#------------------------------------------------------------------------------
 # PRINT FUNCTIONS
 #------------------------------------------------------------------------------
 
-def print_as_bulleted_list_no_caps(array):
-	for x in range(len(array)):
-		print('* ' + str(array[x]))
+def print_as_bulleted_list_no_caps(input_list):
+	for x in range(len(input_list)):
+		print('* ' + str(input_list[x]))
 
 def print_as_list(input_list):
 	for x in range(len(input_list)):
